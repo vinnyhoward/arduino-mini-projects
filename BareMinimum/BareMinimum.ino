@@ -7,28 +7,28 @@ void setup() {
 
 void loop() {
     digitalWrite(13, HIGH);
-    // delay(250);   
-    // digitalWrite(12, HIGH);
-    // delay(250); 
-    // digitalWrite(11, HIGH);
-    // delay(250); 
-    // digitalWrite(10, HIGH);
-    // delay(250); 
+    delay(250);   
+    digitalWrite(12, HIGH);
+    delay(250); 
+    digitalWrite(11, HIGH);
+    delay(250); 
+    digitalWrite(10, HIGH);
+    delay(250); 
 
-    // digitalWrite(13, LOW);
-    // delay(250);   
-    // digitalWrite(12, LOW);
-    // delay(250); 
-    // digitalWrite(11, LOW);
-    // delay(250); 
-    // digitalWrite(10, LOW);
-    // delay(250); 
+    digitalWrite(13, LOW);
+    delay(250);   
+    digitalWrite(12, LOW);
+    delay(250); 
+    digitalWrite(11, LOW);
+    delay(250); 
+    digitalWrite(10, LOW);
+    delay(250); 
 
-    // delay(500); 
-    // digitalWrite(13, HIGH); 
-    // digitalWrite(12, HIGH);
-    // digitalWrite(11, HIGH);
-    // digitalWrite(10, HIGH);
+    delay(500); 
+    digitalWrite(13, HIGH); 
+    digitalWrite(12, HIGH);
+    digitalWrite(11, HIGH);
+    digitalWrite(10, HIGH);
 
     delay(500); 
     digitalWrite(13, LOW); 
@@ -49,3 +49,4 @@ void loop() {
     digitalWrite(10, LOW);
     delay(1000); 
 }
+
