@@ -42,7 +42,7 @@ void loop() {
   Serial.println("--------------------------------");
   
   // Scanning back from 165 to 15 degrees
-  for(int i = 165; i > 15; i--) {  
+  for(int i = 100; i > 15; i--) {  
     myServo.write(i);
     delay(30);
     distance = calculateDistance();
